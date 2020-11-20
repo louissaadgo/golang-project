@@ -1,9 +1,10 @@
-package main
+package hello
 
 import "fmt"
 
-func main() {
+//Hello greets
+func Hello() {
 	fmt.Println("This is the beta branch.")
 	fmt.Println("Mastering Git")
-	fmt.Println("v0.2.0")
+	fmt.Println("v0.3.0")
 }
